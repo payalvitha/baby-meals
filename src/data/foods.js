@@ -10,6 +10,8 @@ export const FOODS = [
   { id: 'cauliflower', name: 'Cauliflower', emoji: '🥦', category: 'Vegetable', minAge: 6, allergen: false, texture: 'Purée → Soft florets', nutrients: ['Vitamin C', 'Choline'], tip: 'Mild and creamy when puréed. Easy to mix with other veg.' },
   { id: 'butternut-squash', name: 'Butternut Squash', emoji: '🎃', category: 'Vegetable', minAge: 4, allergen: false, texture: 'Purée → Soft cubes', nutrients: ['Vitamin A', 'Vitamin C'], tip: 'Naturally sweet — babies love it. Roast for deeper flavor.' },
   { id: 'zucchini', name: 'Zucchini', emoji: '🫑', category: 'Vegetable', minAge: 6, allergen: false, texture: 'Purée → Soft sticks', nutrients: ['Potassium', 'Vitamin B6'], tip: 'High water content — blend with thicker veg for better consistency.' },
+  { id: 'cucumber', name: 'Cucumber', emoji: '🥒', category: 'Vegetable', minAge: 6, allergen: false, texture: 'Purée (peeled, seeded) → Soft spear (BLW)', nutrients: ['Hydration', 'Vitamin K', 'Potassium'], tip: 'Always peel and remove seeds. Cold cucumber spears can soothe teething gums.' },
+  { id: 'eggplant', name: 'Eggplant', emoji: '🍆', category: 'Vegetable', minAge: 7, allergen: false, texture: 'Purée (roasted) → Soft mash', nutrients: ['Fiber', 'Antioxidants', 'Vitamin B6'], tip: 'Roast or steam until very soft before blending. Great mixed into dal or lentil purées.' },
 
   // ── Fruits ──
   { id: 'banana', name: 'Banana', emoji: '🍌', category: 'Fruit', minAge: 4, allergen: false, texture: 'Mash → Spear (BLW)', nutrients: ['Potassium', 'Vitamin B6', 'Magnesium'], tip: 'No cooking needed. Riper = sweeter and easier to digest.' },
@@ -19,6 +21,7 @@ export const FOODS = [
   { id: 'apple', name: 'Apple', emoji: '🍎', category: 'Fruit', minAge: 4, allergen: false, texture: 'Purée (cooked) → Soft pieces', nutrients: ['Fiber', 'Vitamin C'], tip: 'Always cook before serving. Great mixed with cinnamon.' },
   { id: 'peach', name: 'Peach', emoji: '🍑', category: 'Fruit', minAge: 6, allergen: false, texture: 'Purée → Soft pieces', nutrients: ['Vitamin A', 'Vitamin C'], tip: 'Peel well. Frozen peaches work great year-round.' },
   { id: 'blueberry', name: 'Blueberry', emoji: '🫐', category: 'Fruit', minAge: 6, allergen: false, texture: 'Purée or halved/squished (BLW)', nutrients: ['Antioxidants', 'Vitamin C', 'Fiber'], tip: 'Always squish or purée — whole blueberries are a choking hazard.' },
+  { id: 'strawberry', name: 'Strawberry', emoji: '🍓', category: 'Fruit', minAge: 6, allergen: false, texture: 'Purée → Soft mashed pieces', nutrients: ['Vitamin C', 'Folate', 'Antioxidants'], tip: 'Remove the top and mash or purée well. Pairs beautifully with banana or yogurt.' },
 
   // ── Proteins ──
   { id: 'egg', name: 'Egg', emoji: '🥚', category: 'Protein', minAge: 6, allergen: true, allergenName: 'Egg', texture: 'Scrambled soft → Strips (BLW)', nutrients: ['Protein', 'Choline', 'Iron'], tip: 'Top allergen — introduce separately. Serve fully cooked.' },
@@ -28,6 +31,8 @@ export const FOODS = [
   { id: 'tofu', name: 'Tofu', emoji: '🟨', category: 'Protein', minAge: 6, allergen: true, allergenName: 'Soy', texture: 'Soft cubes (BLW) → Scrambled', nutrients: ['Protein', 'Calcium', 'Iron'], tip: 'Silken tofu can be blended into purées. Firm tofu makes good BLW strips.' },
   { id: 'salmon', name: 'Salmon', emoji: '🐟', category: 'Protein', minAge: 6, allergen: true, allergenName: 'Fish', texture: 'Flaked into purée → Soft flakes (BLW)', nutrients: ['Omega-3', 'Protein', 'Vitamin D'], tip: 'Check carefully for bones. Baked or steamed is safest.' },
   { id: 'chicken', name: 'Chicken', emoji: '🍗', category: 'Protein', minAge: 6, allergen: false, texture: 'Purée → Shredded (BLW)', nutrients: ['Protein', 'Iron', 'Zinc'], tip: 'Thigh meat stays juicier and is easier to purée than breast.' },
+  { id: 'peanut-butter', name: 'Peanut Butter', emoji: '🥜', category: 'Protein', minAge: 6, allergen: true, allergenName: 'Peanut', texture: 'Thinned into purée or spread (never whole nuts)', nutrients: ['Protein', 'Healthy fats', 'Vitamin E'], tip: 'Early introduction reduces allergy risk. Always thin with water/formula — thick PB is a choking hazard. Use smooth, no-added-salt only.' },
+  { id: 'white-fish', name: 'White Fish', emoji: '🐠', category: 'Protein', minAge: 6, allergen: true, allergenName: 'Fish', texture: 'Flaked into purée → Soft flakes (BLW)', nutrients: ['Protein', 'Omega-3', 'Vitamin D'], tip: 'Cod, tilapia, or sole are mild and low-mercury. Always check for bones carefully. Steam or bake.' },
 
   // ── Dairy ──
   { id: 'greek-yogurt', name: 'Greek Yogurt', emoji: '🫙', category: 'Dairy', minAge: 6, allergen: true, allergenName: 'Dairy', texture: 'Spoon-fed', nutrients: ['Protein', 'Calcium', 'Probiotics'], tip: 'Full-fat plain only. Supports gut health and brain development.' },
